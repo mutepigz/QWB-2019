@@ -4,10 +4,9 @@
 from flask import Flask, redirect
 import urllib
 app = Flask(__name__)
-#host = "192.168.213.199:12000"
 host = "0.0.0.0:10000"
 
-@app.route("/mutepig.jpg")
+@app.route("/lk.jpg")
 def mutepig():
     print "="*50
     cmd = open('cmd.txt').read().strip()
